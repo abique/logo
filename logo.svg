@@ -1,21 +1,87 @@
 <?xml version="1.0"?>
-<svg width="500" height="500" viewPort="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg">
-  <polyline fill="none" stroke="black" points="217,231 113.077,171 175.431,135 213.536,157 213.536,181 195.349,191.5 167.637,175.5 181.493,167.5 185.823,170 "/>
-  <path fill="none" stroke="black" d="M 125.548,163.8  C 98.8108,96.1159 218.937,67.442 217,15 "/>
-  <path fill="none" stroke="black" d="M 232.935,120.2  C 278.183,63.2031 363.078,152.898 407.526,125 "/>
-  <polyline fill="none" stroke="black" points="217,231 320.923,171 258.569,135 220.464,157 220.464,181 238.651,191.5 266.363,175.5 252.507,167.5 248.177,170 "/>
-  <path fill="none" stroke="black" d="M 308.452,163.8  C 335.189,96.1159 215.063,67.442 217,15 "/>
-  <path fill="none" stroke="black" d="M 324.387,278.6  C 396.372,267.913 361.141,149.544 407.526,125 "/>
-  <polyline fill="none" stroke="black" points="220.464,237 324.387,177 324.387,249 286.282,271 265.497,259 265.497,238 293.21,222 293.21,238 288.88,240.5 "/>
-  <path fill="none" stroke="black" d="M 324.387,191.4  C 396.372,202.087 361.141,320.456 407.526,345 "/>
-  <path fill="none" stroke="black" d="M 308.452,306.2  C 335.189,373.884 215.063,402.558 217,455 "/>
-  <polyline fill="none" stroke="black" points="220.464,237 220.464,357 282.818,321 282.818,277 262.033,265 243.847,275.5 243.847,307.5 257.703,299.5 257.703,294.5 "/>
-  <path fill="none" stroke="black" d="M 232.935,349.8  C 278.183,406.797 363.078,317.102 407.526,345 "/>
-  <path fill="none" stroke="black" d="M 125.548,306.2  C 98.8108,373.884 218.937,402.558 217,455 "/>
-  <polyline fill="none" stroke="black" points="213.536,237 213.536,357 151.182,321 151.182,277 171.967,265 190.153,275.5 190.153,307.5 176.297,299.5 176.297,294.5 "/>
-  <path fill="none" stroke="black" d="M 201.065,349.8  C 155.817,406.797 70.9221,317.102 26.4744,345 "/>
-  <path fill="none" stroke="black" d="M 109.613,278.6  C 37.6282,267.913 72.859,149.544 26.4744,125 "/>
-  <polyline fill="none" stroke="black" points="213.536,237 109.613,177 109.613,249 147.718,271 168.503,259 168.503,238 140.79,222 140.79,238 145.12,240.5 "/>
-  <path fill="none" stroke="black" d="M 109.613,191.4  C 37.6282,202.087 72.859,320.456 26.4744,345 "/>
-  <path fill="none" stroke="black" d="M 201.065,120.2  C 155.817,63.2031 70.9221,152.898 26.4744,125 "/>
+<svg width="1000" height="1000" viewPort="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="500" height="500" fill="black"/>  <path fill="none" stroke="red" stroke-width="0.618034" d="M 211.904,231.255  C 210.339,227.427 217.145,225.718 217,222.74 "/>
+  <path fill="none" stroke="purple" stroke-width="0.5" d="M 217.695,228.714  C 220.228,225.445 225.111,230.485 227.618,228.87 "/>
+  <path fill="none" stroke="red" stroke-width="0.618034" d="M 222.096,231.255  C 223.661,227.427 216.855,225.718 217,222.74 "/>
+  <path fill="none" stroke="purple" stroke-width="0.5" d="M 222.791,237.541  C 226.888,236.982 224.966,230.233 227.618,228.87 "/>
+  <path fill="none" stroke="red" stroke-width="0.618034" d="M 222.791,232.459  C 226.888,233.018 224.966,239.767 227.618,241.13 "/>
+  <path fill="none" stroke="purple" stroke-width="0.5" d="M 222.096,238.745  C 223.661,242.573 216.855,244.282 217,247.26 "/>
+  <path fill="none" stroke="red" stroke-width="0.618034" d="M 217.695,241.286  C 220.228,244.555 225.111,239.515 227.618,241.13 "/>
+  <path fill="none" stroke="purple" stroke-width="0.5" d="M 211.904,238.745  C 210.339,242.573 217.145,244.282 217,247.26 "/>
+  <path fill="none" stroke="red" stroke-width="0.618034" d="M 216.305,241.286  C 213.772,244.555 208.889,239.515 206.382,241.13 "/>
+  <path fill="none" stroke="purple" stroke-width="0.5" d="M 211.209,237.541  C 207.112,236.982 209.034,230.233 206.382,228.87 "/>
+  <path fill="none" stroke="red" stroke-width="0.618034" d="M 211.209,232.459  C 207.112,233.018 209.034,239.767 206.382,241.13 "/>
+  <path fill="none" stroke="purple" stroke-width="0.5" d="M 216.305,228.714  C 213.772,225.445 208.889,230.485 206.382,228.87 "/>
+  <path fill="none" stroke="orange" stroke-width="1.23607" d="M 208.846,229.008  C 206.343,222.884 217.232,220.149 217,215.384 "/>
+  <path fill="none" stroke="indigo" stroke-width="1" d="M 218.112,224.942  C 222.164,219.713 229.978,227.775 233.988,225.192 "/>
+  <path fill="none" stroke="orange" stroke-width="1.23607" d="M 225.154,229.008  C 227.657,222.884 216.768,220.149 217,215.384 "/>
+  <path fill="none" stroke="indigo" stroke-width="1" d="M 226.266,239.066  C 232.821,238.171 229.745,227.373 233.988,225.192 "/>
+  <path fill="none" stroke="orange" stroke-width="1.23607" d="M 226.266,230.934  C 232.821,231.829 229.745,242.627 233.988,244.808 "/>
+  <path fill="none" stroke="indigo" stroke-width="1" d="M 225.154,240.992  C 227.657,247.116 216.768,249.851 217,254.616 "/>
+  <path fill="none" stroke="orange" stroke-width="1.23607" d="M 218.112,245.058  C 222.164,250.287 229.978,242.225 233.988,244.808 "/>
+  <path fill="none" stroke="indigo" stroke-width="1" d="M 208.846,240.992  C 206.343,247.116 217.232,249.851 217,254.616 "/>
+  <path fill="none" stroke="orange" stroke-width="1.23607" d="M 215.888,245.058  C 211.836,250.287 204.022,242.225 200.012,244.808 "/>
+  <path fill="none" stroke="indigo" stroke-width="1" d="M 207.734,239.066  C 201.179,238.171 204.255,227.373 200.012,225.192 "/>
+  <path fill="none" stroke="orange" stroke-width="1.23607" d="M 207.734,230.934  C 201.179,231.829 204.255,242.627 200.012,244.808 "/>
+  <path fill="none" stroke="indigo" stroke-width="1" d="M 215.888,224.942  C 211.836,219.713 204.022,227.775 200.012,225.192 "/>
+  <path fill="none" stroke="yellow" stroke-width="1.8541" d="M 203.953,225.413  C 199.948,215.614 217.371,211.238 217,203.614 "/>
+  <path fill="none" stroke="blue" stroke-width="1.5" d="M 218.779,218.908  C 225.263,210.54 237.764,223.441 244.181,219.307 "/>
+  <path fill="none" stroke="yellow" stroke-width="1.8541" d="M 230.047,225.413  C 234.052,215.614 216.629,211.238 217,203.614 "/>
+  <path fill="none" stroke="blue" stroke-width="1.5" d="M 231.826,241.505  C 242.314,240.074 237.393,222.797 244.181,219.307 "/>
+  <path fill="none" stroke="yellow" stroke-width="1.8541" d="M 231.826,228.495  C 242.314,229.926 237.393,247.203 244.181,250.693 "/>
+  <path fill="none" stroke="blue" stroke-width="1.5" d="M 230.047,244.587  C 234.052,254.386 216.629,258.762 217,266.386 "/>
+  <path fill="none" stroke="yellow" stroke-width="1.8541" d="M 218.779,251.092  C 225.263,259.46 237.764,246.559 244.181,250.693 "/>
+  <path fill="none" stroke="blue" stroke-width="1.5" d="M 203.953,244.587  C 199.948,254.386 217.371,258.762 217,266.386 "/>
+  <path fill="none" stroke="yellow" stroke-width="1.8541" d="M 215.221,251.092  C 208.737,259.46 196.236,246.559 189.819,250.693 "/>
+  <path fill="none" stroke="blue" stroke-width="1.5" d="M 202.174,241.505  C 191.686,240.074 196.607,222.797 189.819,219.307 "/>
+  <path fill="none" stroke="yellow" stroke-width="1.8541" d="M 202.174,228.495  C 191.686,229.926 196.607,247.203 189.819,250.693 "/>
+  <path fill="none" stroke="blue" stroke-width="1.5" d="M 215.221,218.908  C 208.737,210.54 196.236,223.441 189.819,219.307 "/>
+  <path fill="none" stroke="green" stroke-width="2.47214" d="M 196.125,219.661  C 189.718,203.983 217.594,196.981 217,184.782 "/>
+  <path fill="none" stroke="green" stroke-width="2" d="M 219.847,209.252  C 230.22,195.864 250.222,216.505 260.49,209.891 "/>
+  <path fill="none" stroke="green" stroke-width="2.47214" d="M 237.875,219.661  C 244.282,203.983 216.406,196.981 217,184.782 "/>
+  <path fill="none" stroke="green" stroke-width="2" d="M 240.722,245.409  C 257.503,243.119 249.628,215.476 260.49,209.891 "/>
+  <path fill="none" stroke="green" stroke-width="2.47214" d="M 240.722,224.591  C 257.503,226.881 249.628,254.524 260.49,260.109 "/>
+  <path fill="none" stroke="green" stroke-width="2" d="M 237.875,250.339  C 244.282,266.017 216.406,273.019 217,285.218 "/>
+  <path fill="none" stroke="green" stroke-width="2.47214" d="M 219.847,260.748  C 230.22,274.136 250.222,253.495 260.49,260.109 "/>
+  <path fill="none" stroke="green" stroke-width="2" d="M 196.125,250.339  C 189.718,266.017 217.594,273.019 217,285.218 "/>
+  <path fill="none" stroke="green" stroke-width="2.47214" d="M 214.153,260.748  C 203.78,274.136 183.778,253.495 173.51,260.109 "/>
+  <path fill="none" stroke="green" stroke-width="2" d="M 193.278,245.409  C 176.497,243.119 184.372,215.476 173.51,209.891 "/>
+  <path fill="none" stroke="green" stroke-width="2.47214" d="M 193.278,224.591  C 176.497,226.881 184.372,254.524 173.51,260.109 "/>
+  <path fill="none" stroke="green" stroke-width="2" d="M 214.153,209.252  C 203.78,195.864 183.778,216.505 173.51,209.891 "/>
+  <path fill="none" stroke="blue" stroke-width="3.09017" d="M 183.6,210.457  C 173.348,185.372 217.951,174.17 217,154.652 "/>
+  <path fill="none" stroke="yellow" stroke-width="2.5" d="M 221.555,193.803  C 238.153,172.383 270.156,205.408 286.584,194.826 "/>
+  <path fill="none" stroke="blue" stroke-width="3.09017" d="M 250.4,210.457  C 260.652,185.372 216.049,174.17 217,154.652 "/>
+  <path fill="none" stroke="yellow" stroke-width="2.5" d="M 254.955,251.654  C 281.805,247.99 269.205,203.761 286.584,194.826 "/>
+  <path fill="none" stroke="blue" stroke-width="3.09017" d="M 254.955,218.346  C 281.805,222.01 269.205,266.239 286.584,275.174 "/>
+  <path fill="none" stroke="yellow" stroke-width="2.5" d="M 250.4,259.543  C 260.652,284.628 216.049,295.83 217,315.348 "/>
+  <path fill="none" stroke="blue" stroke-width="3.09017" d="M 221.555,276.197  C 238.153,297.617 270.156,264.592 286.584,275.174 "/>
+  <path fill="none" stroke="yellow" stroke-width="2.5" d="M 183.6,259.543  C 173.348,284.628 217.951,295.83 217,315.348 "/>
+  <path fill="none" stroke="blue" stroke-width="3.09017" d="M 212.445,276.197  C 195.847,297.617 163.844,264.592 147.416,275.174 "/>
+  <path fill="none" stroke="yellow" stroke-width="2.5" d="M 179.045,251.654  C 152.195,247.99 164.795,203.761 147.416,194.826 "/>
+  <path fill="none" stroke="blue" stroke-width="3.09017" d="M 179.045,218.346  C 152.195,222.01 164.795,266.239 147.416,275.174 "/>
+  <path fill="none" stroke="yellow" stroke-width="2.5" d="M 212.445,193.803  C 195.847,172.383 163.844,205.408 147.416,194.826 "/>
+  <path fill="none" stroke="indigo" stroke-width="3.7082" d="M 163.56,195.732  C 147.157,155.596 218.521,137.672 217,106.443 "/>
+  <path fill="none" stroke="orange" stroke-width="3" d="M 224.287,169.085  C 250.844,134.812 302.05,187.653 328.334,170.721 "/>
+  <path fill="none" stroke="indigo" stroke-width="3.7082" d="M 270.44,195.732  C 286.843,155.596 215.479,137.672 217,106.443 "/>
+  <path fill="none" stroke="orange" stroke-width="3" d="M 277.728,261.646  C 320.688,255.784 300.528,185.018 328.334,170.721 "/>
+  <path fill="none" stroke="indigo" stroke-width="3.7082" d="M 277.728,208.354  C 320.688,214.216 300.528,284.982 328.334,299.279 "/>
+  <path fill="none" stroke="orange" stroke-width="3" d="M 270.44,274.268  C 286.843,314.404 215.479,332.328 217,363.557 "/>
+  <path fill="none" stroke="indigo" stroke-width="3.7082" d="M 224.287,300.915  C 250.844,335.188 302.05,282.347 328.334,299.279 "/>
+  <path fill="none" stroke="orange" stroke-width="3" d="M 163.56,274.268  C 147.157,314.404 218.521,332.328 217,363.557 "/>
+  <path fill="none" stroke="indigo" stroke-width="3.7082" d="M 209.713,300.915  C 183.156,335.188 131.95,282.347 105.666,299.279 "/>
+  <path fill="none" stroke="orange" stroke-width="3" d="M 156.272,261.646  C 113.312,255.784 133.472,185.018 105.666,170.721 "/>
+  <path fill="none" stroke="indigo" stroke-width="3.7082" d="M 156.272,208.354  C 113.312,214.216 133.472,284.982 105.666,299.279 "/>
+  <path fill="none" stroke="orange" stroke-width="3" d="M 209.713,169.085  C 183.156,134.812 131.95,187.653 105.666,170.721 "/>
+  <path fill="none" stroke="purple" stroke-width="4.32624" d="M 131.496,172.171  C 105.251,107.954 219.434,79.2746 217,29.3083 "/>
+  <path fill="none" stroke="red" stroke-width="3.5" d="M 228.66,129.536  C 271.151,74.6992 353.079,159.245 395.134,132.154 "/>
+  <path fill="none" stroke="purple" stroke-width="4.32624" d="M 302.504,172.171  C 328.749,107.954 214.566,79.2746 217,29.3083 "/>
+  <path fill="none" stroke="red" stroke-width="3.5" d="M 314.164,277.634  C 382.9,268.254 350.645,155.029 395.134,132.154 "/>
+  <path fill="none" stroke="purple" stroke-width="4.32624" d="M 314.164,192.366  C 382.9,201.746 350.645,314.971 395.134,337.846 "/>
+  <path fill="none" stroke="red" stroke-width="3.5" d="M 302.504,297.829  C 328.749,362.046 214.566,390.725 217,440.692 "/>
+  <path fill="none" stroke="purple" stroke-width="4.32624" d="M 228.66,340.464  C 271.151,395.301 353.079,310.755 395.134,337.846 "/>
+  <path fill="none" stroke="red" stroke-width="3.5" d="M 131.496,297.829  C 105.251,362.046 219.434,390.725 217,440.692 "/>
+  <path fill="none" stroke="purple" stroke-width="4.32624" d="M 205.34,340.464  C 162.849,395.301 80.9207,310.755 38.8658,337.846 "/>
+  <path fill="none" stroke="red" stroke-width="3.5" d="M 119.836,277.634  C 51.1,268.254 83.355,155.029 38.8658,132.154 "/>
+  <path fill="none" stroke="purple" stroke-width="4.32624" d="M 119.836,192.366  C 51.1,201.746 83.355,314.971 38.8658,337.846 "/>
+  <path fill="none" stroke="red" stroke-width="3.5" d="M 205.34,129.536  C 162.849,74.6992 80.9207,159.245 38.8658,132.154 "/>
 </svg>

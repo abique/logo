@@ -11,8 +11,9 @@
 typedef long double scalar;
 typedef std::complex<scalar> point;
 
+const scalar GOLD = 1.6180339887;
 const scalar PI = M_PI;
-const scalar R1 = 4;
+const scalar R1 = 0;
 const scalar S1 = 220;
 const scalar S2 = 220;
 const scalar L1 = 120;
@@ -30,15 +31,25 @@ point polar(scalar r, scalar teta)
   return std::polar<scalar>(r, teta);
 }
 
-void sym_rotate_print(bool sym, point p, scalar angle)
+void sym_rotate_print(bool sym, point p, scalar angle, scalar scale)
 {
   angle += PI;
 
   if (sym)
     p = point(2 * A.real() - p.real(), p.imag());
-  p = (p - A) * polar(1, angle) + A;
+  p = (p - A) * scale * polar(1, angle) + A;
   std::cout << p.real() << "," << p.imag() << " ";
 }
+
+static const char *colors[] = {
+  "red",
+  "orange",
+  "yellow",
+  "green",
+  "blue",
+  "indigo",
+  "purple"
+};
 
 int main(int argc, char **argv)
 {
@@ -60,42 +71,47 @@ int main(int argc, char **argv)
   point l4 = A + polar(S2, PI / 6);
 
   std::cout << "<?xml version=\"1.0\"?>\n"
-    "<svg width=\"500\" height=\"500\" viewPort=\"0 0 120 120\""
-    " version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n";
+    "<svg width=\"1000\" height=\"1000\" viewPort=\"0 0 120 120\""
+    " version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\">\n"
+    "<rect x=\"0\" y=\"0\" width=\"500\" height=\"500\" fill=\"black\"/>";
 
-  for (int x = 0; x < 3; ++x) {
-    for (int y = 0; y < 2; ++y) {
+  int offset = 0;
+  for (double scale = 1 / GOLD / GOLD / GOLD / GOLD / GOLD / GOLD;
+       scale <= 1; scale *= 1.6, ++offset) {
+    for (int x = 0; x < 3; ++x) {
+      for (int y = 0; y < 2; ++y) {
 
-      std::cout << "  <polyline fill=\"none\" stroke=\"black\""
-        " points=\"";
-      sym_rotate_print(y, b, x * 2 * PI / 3);
-      sym_rotate_print(y, c, x * 2 * PI / 3);
-      sym_rotate_print(y, d, x * 2 * PI / 3);
-      sym_rotate_print(y, e, x * 2 * PI / 3);
-      sym_rotate_print(y, f, x * 2 * PI / 3);
-      sym_rotate_print(y, g, x * 2 * PI / 3);
-      sym_rotate_print(y, h, x * 2 * PI / 3);
-      sym_rotate_print(y, i, x * 2 * PI / 3);
-      sym_rotate_print(y, j, x * 2 * PI / 3);
-      std::cout << "\"/>\n";
+        // std::cout << "  <polyline fill=\"none\" stroke=\"black\""
+        //   " points=\"";
+        // sym_rotate_print(y, b, x * 2 * PI / 3, scale);
+        // sym_rotate_print(y, c, x * 2 * PI / 3, scale);
+        // sym_rotate_print(y, d, x * 2 * PI / 3, scale);
+        // sym_rotate_print(y, e, x * 2 * PI / 3, scale);
+        // sym_rotate_print(y, f, x * 2 * PI / 3, scale);
+        // sym_rotate_print(y, g, x * 2 * PI / 3, scale);
+        // sym_rotate_print(y, h, x * 2 * PI / 3, scale);
+        // sym_rotate_print(y, i, x * 2 * PI / 3, scale);
+        // sym_rotate_print(y, j, x * 2 * PI / 3, scale);
+        // std::cout << "\"/>\n";
 
-      std::cout << "  <path fill=\"none\" stroke=\"black\""
-        " d=\"M ";
-      sym_rotate_print(y, l1, x * 2 * PI / 3);
-      std::cout << " C ";
-      sym_rotate_print(y, l2, x * 2 * PI / 3);
-      sym_rotate_print(y, l3, x * 2 * PI / 3);
-      sym_rotate_print(y, l0, x * 2 * PI / 3);
-      std::cout << "\"/>\n";
+        std::cout << "  <path fill=\"none\" stroke=\"" << colors[offset] << "\""
+          " stroke-width=\"" << (offset + 1) / GOLD << "\" d=\"M ";
+        sym_rotate_print(y, l1, x * 2 * PI / 3, scale);
+        std::cout << " C ";
+        sym_rotate_print(y, l2, x * 2 * PI / 3, scale);
+        sym_rotate_print(y, l3, x * 2 * PI / 3, scale);
+        sym_rotate_print(y, l0, x * 2 * PI / 3, scale);
+        std::cout << "\"/>\n";
 
-      std::cout << "  <path fill=\"none\" stroke=\"black\""
-        " d=\"M ";
-      sym_rotate_print(y, l1, x * 2 * PI / 3 + PI / 3);
-      std::cout << " C ";
-      sym_rotate_print(y, l2, x * 2 * PI / 3 + PI / 3);
-      sym_rotate_print(y, l3, x * 2 * PI / 3 + PI / 3);
-      sym_rotate_print(y, l0, x * 2 * PI / 3 + PI / 3);
-      std::cout << "\"/>\n";
+        std::cout << "  <path fill=\"none\" stroke=\"" << colors[6 - offset] << "\""
+          " stroke-width=\"" << (offset + 1) / 2.0 << "\" d=\"M ";
+        sym_rotate_print(y, l1, x * 2 * PI / 3 + PI / 3, scale);
+        std::cout << " C ";
+        sym_rotate_print(y, l2, x * 2 * PI / 3 + PI / 3, scale);
+        sym_rotate_print(y, l3, x * 2 * PI / 3 + PI / 3, scale);
+        sym_rotate_print(y, l0, x * 2 * PI / 3 + PI / 3, scale);
+        std::cout << "\"/>\n";
+      }
     }
   }
   std::cout << "</svg>";
